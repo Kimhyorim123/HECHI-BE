@@ -1,0 +1,58 @@
+# Python
+__pycache__/
+*.py[cod]
+*.so
+*.egg
+*.egg-info/
+.eggs/
+build/
+dist/
+
+# Virtual envs
+.env/
+venv/
+venv*/
+.env.bak/
+.venv/
+
+# Editors
+.vscode/
+.idea/
+
+# OS / Misc
+.DS_Store
+*.swp
+*.log
+
+# Test / coverage
+.coverage
+htmlcov/
+.pytest_cache/
+
+# Envs & secrets
+.env
+*.env.local
+.env.*.local
+.env.docker
+*.pem
+*.key
+*firebase-adminsdk*.json
+
+# Docker artifacts
+*.pid
+
+# Alembic
+alembic.ini.bak
+dev_migration.db
+dev.db
+app/app.db
+
+# Generated OpenAPI (keep committed versioned file, ignore temp outputs)
+openapi-temp.json
+
+# Uploads & temp files
+uploads/
+tmp_*.py
+
+# Migration backups
+migrations/versions_backup/
